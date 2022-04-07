@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import { BackdropLoadingProps } from "./types";
-import Backdrop from "@mui/material/Backdrop";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Backdrop, CircularProgress } from "@material-ui/core";
 
 const CustomBackdropLoading: FC<BackdropLoadingProps> = ({
   onClose,
