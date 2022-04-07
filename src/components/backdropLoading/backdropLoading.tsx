@@ -1,7 +1,7 @@
 import React from "react";
 import { BackdropLoadingProps } from "./types";
-import Backdrop from "@mui/material/Backdrop";
-import CircularProgress from "@mui/material/CircularProgress";
+import { Backdrop } from "@material-ui/core";
+import { CircularProgress } from "@material-ui/core";
 
 const CustomBackdropLoading: any = () => {
   return (
