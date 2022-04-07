@@ -38678,9 +38678,9 @@ var CircularProgress$1 = withStyles(styles, {
 })(CircularProgress);
 
 var CustomBackdropLoading = function (_a) {
-    var onClose = _a.onClose, _b = _a.open, open = _b === void 0 ? true : _b;
+    _a.onClose; _a.open;
     return (React.createElement("div", null,
-        React.createElement(Backdrop$1, { sx: { color: "#fff", zIndex: 10 }, open: open, onClick: onClose && onClose },
+        React.createElement(Backdrop$1, { open: true },
             React.createElement(CircularProgress$1, { color: "inherit" }))));
 };
 

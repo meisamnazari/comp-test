@@ -8,11 +8,7 @@ const CustomBackdropLoading: FC<BackdropLoadingProps> = ({
 }) => {
   return (
     <div>
-      <Backdrop
-        sx={{ color: "#fff", zIndex: 10 }}
-        open={open}
-        onClick={onClose && onClose}
-      >
+      <Backdrop open>
         <CircularProgress color="inherit" />
       </Backdrop>
     </div>
