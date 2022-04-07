@@ -1,1 +1,1 @@
-export { default as BackdropLoading } from './components/backdropLoading/backdropLoading';
+export { default as PinCodeInput } from './components/pinCodeInput/pinCodeInput';

@@ -1,10 +1,12 @@
 import { FC } from 'react';
 
-interface BackdropLoadingProps {
-    onClose?: () => void;
-    open?: boolean;
+interface PinCodeInputProps {
+    length: number;
+    onChange?: () => void;
+    onComplete?: () => void;
+    disabled?: boolean;
 }
 
-declare const CustomBackdropLoading: FC<BackdropLoadingProps>;
+declare const PinCodeInput: FC<PinCodeInputProps>;
 
-export { CustomBackdropLoading as BackdropLoading };
+export { PinCodeInput };

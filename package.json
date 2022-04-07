@@ -33,14 +33,12 @@
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
     "typescript": "^4.4.4",
-    "webpack": "^5.70.0"
+    "webpack": "^5.70.0",
+    "react-pin-input": "^1.0.1"
   },
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
-  },
-  "dependencies": {
-    "@material-ui/core": "^4.12.4"
   }
 }
