@@ -1,5 +1,4 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-declare const _default: ComponentMeta<React.FC<import("../components/backdropLoading/types").BackdropLoadingProps>>;
+declare const _default: ComponentMeta<any>;
 export default _default;
-export declare const SimpleBackdrop: ComponentStory<React.FC<import("../components/backdropLoading/types").BackdropLoadingProps>>;
+export declare const SimpleBackdrop: ComponentStory<any>;

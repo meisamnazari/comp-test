@@ -1,12 +1,9 @@
-import React, { FC } from "react";
+import React from "react";
 import { BackdropLoadingProps } from "./types";
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 
-const CustomBackdropLoading: FC<BackdropLoadingProps> = ({
-  onClose,
-  open = true,
-}) => {
+const CustomBackdropLoading: any = () => {
   return (
     <div>
       <Backdrop open>

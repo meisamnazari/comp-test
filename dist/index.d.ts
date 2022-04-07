@@ -9,11 +9,6 @@ interface PinCodeInputProps {
 
 declare const PinCodeInput: FC<PinCodeInputProps>;
 
-interface BackdropLoadingProps {
-    onClose?: () => void;
-    open?: boolean;
-}
-
-declare const CustomBackdropLoading: FC<BackdropLoadingProps>;
+declare const CustomBackdropLoading: any;
 
 export { CustomBackdropLoading as BackdropLoading, PinCodeInput };

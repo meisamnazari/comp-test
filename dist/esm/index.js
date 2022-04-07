@@ -39550,8 +39550,7 @@ process.env.NODE_ENV !== "production" ? CircularProgress.propTypes
 } : void 0;
 var CircularProgress$1 = CircularProgress;
 
-var CustomBackdropLoading = function (_a) {
-    _a.onClose; _a.open;
+var CustomBackdropLoading = function () {
     return (React.createElement("div", null,
         React.createElement(Backdrop$1, { open: true },
             React.createElement(CircularProgress$1, { color: "inherit" }))));
